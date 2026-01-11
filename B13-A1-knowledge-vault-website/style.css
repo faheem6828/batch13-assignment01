@@ -168,7 +168,71 @@ header {
 #card-heading {
   color: rgb(0, 25, 49);
   text-align: center;
+  margin: 50px auto;
+  padding: 10px;
+  font-size: 22px;
 }
 #card-heading p {
+  margin: 20px auto;
   font-size: 15px;
+  color: rgba(0, 25, 49, 0.808);
+}
+.card-container img {
+  background-color: rgba(249, 85, 85, 1);
+  border-radius: 100%;
+  padding: 10px;
+  margin: 7px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(0, 25, 49);
+  margin: auto 20px;
+}
+.card {
+  text-align: center;
+  padding: 10px auto;
+}
+.card p {
+  font-size: 13px;
+  padding: 15px;
+}
+.card h2 {
+  font-size: 22px;
+}
+.card:hover {
+  border: dotted 1px rgba(0, 0, 0, 0.541);
+}
+#card4 {
+  margin-right: 20px;
+}
+#brain-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 45px;
+}
+#brain-contents h4 {
+  color: rgb(70, 145, 101);
+  margin: 17px auto;
+}
+#brain-contents ul {
+  list-style: none;
+  padding: 0;
+}
+.brain-list li {
+  display: flex;
+  justify-content: left;
+  padding: 5px;
+  gap: 7px;
+  align-items: center;
+  font-size: 13.5px;
+}
+.brain-list {
+  display: flex;
+  justify-content: left;
+}
+#brain-contents p {
+  margin: 20px auto;
+  font-size: 14px;
 }
